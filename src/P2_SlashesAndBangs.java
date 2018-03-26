@@ -1,7 +1,7 @@
 /*
   	ISYS 320
-  	Name(s):
-  	Date: 
+  	Name(s):AlfurhudSolomon
+  	Date: March25, 2018
 */
 
 
@@ -29,8 +29,23 @@ Line Number		| HEADING		| HEADING		| HEADING		| HEADING		| HEADING		|
 
 public class P2_SlashesAndBangs {
 
-	public static void main(String[] args) {
+	  public static void main(String args[]) {
 
-	}
+        
 
+ 
+
+        
+
+ 
+       for(int i : new Integer[]{22,18,14,10,6,4,1}){
+     for(int k = 0; k < (22 - i)/2; k++){
+         System.out.print(" ");
+     }           
+     for(int j=0; j<i; j++) {
+         System.out.print("!");
+     } 
+     System.out.println();
+}
+    }
 }
